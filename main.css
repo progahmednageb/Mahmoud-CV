@@ -1,0 +1,261 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, sans-serif;
+	background-color: #e6e5e8;
+}
+/*Globale Style*/
+hr {
+	height: 3px;
+	background: #7886e0;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	height: 40px;
+}
+
+i {
+	font-size: 27px;
+	margin-right: 25px;
+	width: 20px;
+}
+
+/*.main-border {
+	border: 4px solid #7886e0;
+}*/
+
+/*main Style*/
+.head {
+	height: 300px;
+	text-align: center;
+}
+
+.head .persone-image {
+	height: 180px;
+	width: 180px;
+	border: 4px solid #7886e0;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+    top: 6%;
+    left: 43%;
+}
+
+.head .persone-image{
+	background-image: url(persone.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.head h2 {
+	margin-top: 50px;
+	font-size: 2.5em;
+}
+
+/*Information*/
+.info {
+
+}
+
+/*For Info & Edu & Employ Title*/
+.info .title, .edu .edu-title, .employ .employ-title, .exp .exp-title, .able .able-title {
+	text-align: center;
+	font-size: 28px;
+	margin-top: 30px;
+	height: 30px;
+	width: 300px;
+	border-bottom: 3px solid #b16760;
+	padding-bottom: 10px;
+}
+
+.info h4 {
+	font-size: 32px;
+	color:;
+	text-align: center;
+}
+
+.info h6 {
+	font-size: 23px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.info .info-box {
+	margin: auto;
+	margin-top: 2%;
+	background-color: #fff6f6;
+	height: 300px;
+	width: 1000px;
+	border: 1.5px solid #7886e0;
+	border-radius: 5px;
+}
+
+.info .info-box p {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.info .info-box li span {
+	padding-left: 16px;
+	font-size: 20px;
+}
+
+/*Education*/
+.edu {
+	margin: 4% 0;
+}
+.edu .edu-info {
+	margin-left: 10%;
+}
+.edu .edu-info h5 {
+	font-size: 25px;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.edu .edu-info h5 span {
+	font-weight: bold;
+}
+
+.edu .edu-info .edu-target {
+	
+}
+
+.edu .edu-info .edu-target i {
+	font-size: 33px;
+}
+
+.edu .edu-info .edu-target p {
+	display: inline-block;
+	font-size: 25px;
+}
+
+/*Employment*/
+
+.employ {
+	padding-bottom: 2%;
+}
+
+.employ-box {
+	height: 200px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border: 1.5px solid #7886e0;
+	border-radius: 5px;
+	width: 94%
+}
+
+.employ-box i {
+	color: #7886e0;
+	font-size: 40px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.employ-box h5, .employ-box p, .employ-box span {
+	display: inline-block;
+	font-size: 25px;
+	margin-left: 90px;
+}
+
+.employ-box p {
+	font-size: 22px;
+}
+
+.employ-box span {
+	font-size: 20px;
+}
+.employ-box h5 {
+	margin-left: 40px;
+}
+
+/*Skills*/
+
+.skills {
+	height: 350px;
+}
+
+.soft {
+	height: 270px;
+}
+
+.skills > div {
+	width: 40%;
+	margin: 10px;
+	margin-left: 7%;
+	display: inline-block;
+	border: 3px solid #7886e0;
+}
+
+.soft-title, .lang-title{
+	padding: 12px;
+	padding-bottom: 4px;
+    margin: 0px;
+    font-size: 20px;
+    border-bottom: 1.4px solid #7886e0;
+}
+
+.skills .lang ul i, .skills .lang ul li {
+	display: inline-block;
+	font-size: 27px;
+	font-family: sans-serif;
+}
+
+.skills .lang ul p {
+	font-size: 20px;
+}
+
+.skills .soft ul li {
+	font-size: 20px;
+}
+
+/*Finish*/
+
+.able-title, .exp-title {
+	margin-left: 12%
+}
+
+.able ul, .exp ul {
+	margin-left: 15%;
+	margin-top: 2%;
+}
+
+.able ul li, .exp ul li {
+	font-size: 22px;
+}
+
+.exp h5 {
+	margin-left: 12%;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+
+/*Hack Code*/
+.exp-two {
+	background-image: url(office.png);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/*End*/
+div.finish {
+	color: #fff;
+	background: #000;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 2%;
+}
