@@ -186,12 +186,12 @@ i {
 }
 
 .soft {
-	height: 270px;
+	height: 250px;
 }
 
 .skills > div {
 	width: 40%;
-	margin: 10px;
+	margin: 0;
 	margin-left: 7%;
 	display: inline-block;
 	border: 3px solid #7886e0;
@@ -212,7 +212,7 @@ i {
 }
 
 .skills .lang ul p {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .skills .soft ul li {
@@ -258,4 +258,16 @@ div.finish {
 	line-height: 40px;
 	text-align: center;
 	margin-top: 2%;
+}
+
+p.place {
+	font-size: 16px !important;
+	margin-bottom: 20px;
+}
+p.place span {
+	font-size: 20px;
+}
+
+.lang-title li {
+	height: 30px !important;
 }
